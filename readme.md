@@ -11,14 +11,14 @@ The project includes data preprocessing, model building, and deployment of a web
 The CNN model is developed using TensorFlow Keras and trained on a dataset consisting of potato disease images. The model architecture includes multiple convolutional and pooling layers for feature extraction, followed by fully connected layers for classification.
 
 ![Training and Validation Loss/Accuracy](accuracy-lost.png)
-*Figure 2: Training and validation loss and accuracy curves during model training.*
+*Figure 1: Training and validation loss and accuracy curves during model training.*
 
 ### Training
 
 The model is trained using a training dataset and validated using a validation dataset. Data augmentation techniques such as rotation and horizontal flipping are applied to improve model generalization. Training progress and performance metrics are visualized using Matplotlib.
 
 ![Sample Leaf Images](results.png)
-*Figure 1: Sample images of potato leaves used for classification.*
+*Figure 2: Sample images of potato leaves used for classification.*
 
 ## Web Application
 
